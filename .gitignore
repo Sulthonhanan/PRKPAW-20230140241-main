@@ -1,0 +1,17 @@
+# Abaikan folder node_modules
+node_modules/
+
+# Abaikan file environment
+.env
+
+# Abaikan file konfigurasi tertentu
+config.json
+
+# Abaikan file log
+*.log
+
+# Abaikan file sementara VSCode
+.vscode/
+
+# Abaikan file test
+test.js
