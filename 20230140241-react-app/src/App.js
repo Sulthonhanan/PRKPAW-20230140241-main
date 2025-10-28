@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+const presensiRoutes = require("./routes/presensi");
+app.use("/presensi", presensiRoutes);
 
 function App() {
   const [message, setMessage] = useState("");
